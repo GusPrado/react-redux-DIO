@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "type": "aws-sam",
+      "request": "direct-invoke",
+      "name": "react:src/components/input/Input.Input (nodejs10.x)",
+      "invokeTarget": {
+        "target": "code",
+        "projectRoot": "",
+        "lambdaHandler": "src/components/input/Input.Input"
+      },
+      "lambda": {
+        "runtime": "nodejs10.x",
+        "payload": {},
+        "environmentVariables": {}
+      }
+    }
+  ]
+}
